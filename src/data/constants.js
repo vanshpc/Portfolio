@@ -1,3 +1,15 @@
+import amazon from "../images/amazon.png";
+import business from "../images/business.png";
+import currency from "../images/currency.png";
+import food from "../images/food.png";
+import onetap from "../images/onetap.png";
+import project from "../images/project.png";
+import question from "../images/question.png";
+import restaurant from "../images/restaurant.png";
+import rockpaper from "../images/rockpaper.png";
+import tictac from "../images/tictac.png";
+
+
 export const Bio = {
   name: "Vansh Pratap Choudhary",
   roles: [
@@ -153,12 +165,12 @@ export const projects = [
   
   {
     id: 0,
-    title: "Stack-OverFlow-Clone",
+    title: "Stack-overflow-clone",
     date: " ",
     description:
       "Developed a full-stack web application that allows users to ask and answer tech related questions",
     image:
-      "https://private-user-images.githubusercontent.com/116826751/379882936-e31127cf-8a95-4653-84a8-fe250fa1ca7f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjk3OTI2NjYsIm5iZiI6MTcyOTc5MjM2NiwicGF0aCI6Ii8xMTY4MjY3NTEvMzc5ODgyOTM2LWUzMTEyN2NmLThhOTUtNDY1My04NGE4LWZlMjUwZmExY2E3Zi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMDI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTAyNFQxNzUyNDZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02NWEyZjk1YTE1NGQwNmRkZDYxZDQ1MzQ3ZGRjOWE4MTJiNjQxOTI3ZjQwMWVkZjBlYzZiZjZiYTY4OTBmNTg1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.BqTqk-2ajo9011CQVMrpaY2t1Sl1vYpwOXE68X0TTbM",
+      question,
     
     category: "web app",
     github: "https://github.com/vanshpc/stack-overflow-clone-",
@@ -175,12 +187,76 @@ export const projects = [
   },
   {
     id: 1,
-    title: "Service-Website",
+    title: "Food-delivery-website",
+    date: " ",
+    description:
+      "The Food Delivery is a web-based platform designed to connect users with a variety of local restaurants and food vendors. The app provides an intuitive interface for browsing menus, placing orders, and tracking deliveries in real-time ",
+    image:
+      food,
+   
+    category: "web app",
+    github: "https://github.com/vanshpc/Food-delivery-site",
+    webapp: "https://food-delivery-site-blond.vercel.app/",
+    member: [
+      {
+        name: "Vansh Pratap Choudhary",
+        img: "https://avatars.githubusercontent.com/u/116826751?s=96&v=4",
+        
+      },
+      
+    ],
+  },
+  {
+    id: 1,
+    title: "Restaurant-Website",
+    date: " ",
+    description:
+      "The Restaurant Website is an interactive platform designed to enhance the dining experience by providing customers with easy access to menu details, reservations, and exclusive offers. The website aims to showcase the restaurant’s unique ambiance and offerings while providing a seamless and engaging user experience.",
+    image:
+      restaurant,
+   
+    category: "web app",
+    github: "https://github.com/vanshpc/Restaurant-site",
+    webapp: "https://restaurant-site-jet.vercel.app/",
+    member: [
+      {
+        name: "Vansh Pratap Choudhary",
+        img: "https://avatars.githubusercontent.com/u/116826751?s=96&v=4",
+        
+      },
+      
+    ],
+  },
+  {
+    id: 1,
+    title: "Business-Website",
+    date: " ",
+    description:
+      "The Business Website is a professional online platform designed to showcase a company's products, services, and brand identity. It aims to enhance the company's digital presence, attract potential clients, and provide essential information about the business. The website will feature a modern, responsive design, ensuring accessibility across all devices.",
+    image:
+      business,
+   
+    category: "web app",
+    github: "https://github.com/vanshpc/Business-Site",
+    webapp: "https://business-site-three-self.vercel.app/",
+    member: [
+      {
+        name: "Vansh Pratap Choudhary",
+        img: "https://avatars.githubusercontent.com/u/116826751?s=96&v=4",
+        
+      },
+      
+    ],
+  },
+  
+  {
+    id: 1,
+    title: "One-Tap-Service",
     date: " ",
     description:
       "A modern and responsive service-based website designed to provide users with easy access to a wide range of professional services. The website serves as a platform for showcasing service offerings, allowing potential clients to explore various solutions tailored to their needs. ",
     image:
-      "https://private-user-images.githubusercontent.com/116826751/379884953-db9e2d34-1a82-41d4-b16f-2ce795393856.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjk3OTMwODYsIm5iZiI6MTcyOTc5Mjc4NiwicGF0aCI6Ii8xMTY4MjY3NTEvMzc5ODg0OTUzLWRiOWUyZDM0LTFhODItNDFkNC1iMTZmLTJjZTc5NTM5Mzg1Ni5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMDI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTAyNFQxNzU5NDZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02M2EzMGY5ZjQ2OWZjMTU5M2ZlMTk3ZDVhYjdlZDE1NDRhZDllOGU3NDExM2FhNmQ1YzRjYjU2MjYwZWU0ODRmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.f7_iuE65D8hfSyyJGCViEokrQAOUSU24h52Yiv5QuzM",
+      onetap,
    
     category: "web app",
     github: "https://github.com/vanshpc/Service-website",
@@ -195,13 +271,35 @@ export const projects = [
     ],
   },
   {
+    id: 3,
+    title: "Swimming-acadmey",
+    date: " ",
+    description:
+      "The Swimming Academy Website is a comprehensive platform designed to promote swimming classes, manage enrollments, and provide essential information to prospective students and their parents.",
+    image:
+      project,
+    
+    category: "web app",
+    github: "https://github.com/vanshpc/Rock-Paper-scissors",
+    webapp: "https://vanshpc.github.io/Rock-Paper-scissors/",
+    member: [
+      {
+        name: "Vansh Pratap Choudhary",
+        img: "https://avatars.githubusercontent.com/u/116826751?s=96&v=4",
+        
+      },
+      
+    ],
+  },
+ 
+  {
     id: 2,
     title: "Tic-tac-toe",
     date: " ",
     description:
       "A fun and interactive web-based Tic-Tac-Toe game that allows users to play the classic two-player game online. Designed with a sleek and simple interface, the website provides a smooth and engaging experience for users of all ages",
     image:
-      "https://private-user-images.githubusercontent.com/116826751/379886135-ae623fd9-6c66-42cb-8daa-c8a75b539966.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjk3OTMzMjQsIm5iZiI6MTcyOTc5MzAyNCwicGF0aCI6Ii8xMTY4MjY3NTEvMzc5ODg2MTM1LWFlNjIzZmQ5LTZjNjYtNDJjYi04ZGFhLWM4YTc1YjUzOTk2Ni5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMDI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTAyNFQxODAzNDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wODMyYzZlZTQwZDc1NzE0MmQ4YmZhNmNhOTI5ZmQ4YTNlY2VmOWNiOTI0YjBhZDJiOTc4YjBkNTVkOWY2MDgwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.Pk8IMcWKmAZUPE_CWqv6MGVdPfBSPw-ANcacGB1TpNU",
+      tictac,
       category: "web app",
     github: "https://github.com/vanshpc/TIC-TAC-TOE",
     webapp: "https://vanshpc.github.io/TIC-TAC-TOE/",
@@ -221,7 +319,7 @@ export const projects = [
     description:
       "A dynamic and interactive web-based game that brings the classic Rock, Paper, Scissors game to life. This website allows users to play against the computer in a simple yet engaging environment, with easy-to-understand rules and instant results",
     image:
-      "https://private-user-images.githubusercontent.com/116826751/379887776-3cd4eb41-03b7-49c8-8a4b-345724f5049c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjk3OTM2NzYsIm5iZiI6MTcyOTc5MzM3NiwicGF0aCI6Ii8xMTY4MjY3NTEvMzc5ODg3Nzc2LTNjZDRlYjQxLTAzYjctNDljOC04YTRiLTM0NTcyNGY1MDQ5Yy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMDI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTAyNFQxODA5MzZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04OGVhZDQ4NWJkNDYyMDg3MDYyOGZjN2QzNWY5ZTZkNzg1NzVhMjFlNDM2MzgxMDNiZmJlZGMxZTg4YTYzNmEyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.UL46Jn2vqNLy4rVsuPAkcpMmNemiLNtDuEmKVfWjozM",
+      rockpaper,
     
     category: "web app",
     github: "https://github.com/vanshpc/Rock-Paper-scissors",
@@ -242,7 +340,7 @@ export const projects = [
     description:
       "A user-friendly and efficient web-based currency converter that allows users to convert between various currencies quickly and accurately. The website is designed to provide real-time exchange rates, making it easy for users to find the current value of one currency relative to another",
     image:
-      "https://private-user-images.githubusercontent.com/116826751/379889297-9ea58caf-eb70-4bdd-974e-20b9676f45f4.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjk3OTM5OTUsIm5iZiI6MTcyOTc5MzY5NSwicGF0aCI6Ii8xMTY4MjY3NTEvMzc5ODg5Mjk3LTllYTU4Y2FmLWViNzAtNGJkZC05NzRlLTIwYjk2NzZmNDVmNC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMDI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTAyNFQxODE0NTVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jOGZiNmQ2MTMzOWU1YjEzOWJmMGZhMzhjYjAyNmNmN2I4ZjMyNWM1ODZiYWE3MGMzNjI0M2NmYjBlM2FiY2I5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.el-RUXeK9QzXg7fvUKAmqeFLPiDmsNCSJuyZtmeIkRI",
+      currency,
     
     category: "web app",
     github: "https://github.com/vanshpc/Currency-Converter",
@@ -263,7 +361,7 @@ export const projects = [
     description:
       "A comprehensive  e-commerce website that replicates the core functionalities of the popular online marketplace, Amazon. This project allows users to browse a wide range of products, view detailed product descriptions, add items to their shopping cart, and proceed with a secure checkout process",
     image:
-      "https://private-user-images.githubusercontent.com/116826751/379890347-39fe6b2f-7b4d-4daa-a18c-ea7633f9b980.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjk3OTQyMDIsIm5iZiI6MTcyOTc5MzkwMiwicGF0aCI6Ii8xMTY4MjY3NTEvMzc5ODkwMzQ3LTM5ZmU2YjJmLTdiNGQtNGRhYS1hMThjLWVhNzYzM2Y5Yjk4MC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMDI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTAyNFQxODE4MjJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xZTliYTNkZTVjNDM4NGVjODgwZTNmNzJlNWI3MzA1ZjI5MDZiN2M3NDhkMTZkNTE4Y2YxY2JkMzY1NGIyMTlhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.mPnmY6_dBbfWaHsYFJH-G19BhmS87pgQbvp-K29o4NE",
+      amazon,
     
     category: "web app",
     github: "https://github.com/vanshpc/Amazon-clone",
