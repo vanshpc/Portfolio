@@ -21,7 +21,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/vanshpc",
   resume:
-    "https://drive.google.com/file/d/1X9hg_iN6C8YGRlZ0WEw4oYZxE3XIEGSM/view?usp=drive_link",
+    "https://drive.google.com/file/d/1RzHCkFDu0k1Di53SQ6Kws93EmDZA82Y2/view?usp=sharing",
   linkedin: "http://www.linkedin.com/in/vanshpc",
   twitter: "*",
   insta: "*",
@@ -280,8 +280,8 @@ export const projects = [
       project,
     
     category: "web app",
-    github: "https://github.com/vanshpc/Rock-Paper-scissors",
-    webapp: "https://vanshpc.github.io/Rock-Paper-scissors/",
+    github: "https://github.com/vanshpc/Swimming-Academy",
+    webapp: "https://swimming-academy-one.vercel.app/",
     member: [
       {
         name: "Vansh Pratap Choudhary",
